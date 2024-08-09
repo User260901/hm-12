@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+            to right,
+            white 0%,
+            white 50%,
+            #F8F8FA 50%,
+            #F8F8FA 100%
+    );
+    font-family: NunitoBold, sans-serif;
+}
+
+
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    top: 27px;
+    right: calc(50% - 130px);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 21px;
+}
+
+.form-description {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 123%;
+    color: #636363;
+    margin-bottom: 72px;
+}
+
+.form-registration {
+    max-width: 496px;
+    margin-top: 188px;
+}
+
+.form__input {
+    width: 496px;
+    height: 25px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #c6c6c4;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 20px;
+}
+
+.input-text {
+    font-size: 16px;
+    color: #c6c6c4;
+}
+
+.check-box-text {
+    font-size: 16px;
+    line-height: 169%;
+    color: #636363;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.form-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    border-radius: 40px;
+    width: 210px;
+    height: 70px;
+    background: #dd3142;
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+}
+
+.form__link {
+    text-align: center;
+    margin-top: 44px;
+}
+
+.form__link a {
+    font-size: 16px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.form-img {
+    margin-left: 41px;
+    margin-top:  170px;
+}
+
+.popup {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 250px);
+    border: 3px solid #dd3142;
+    border-radius: 15px;
+    display: none;
+
+}
+
+.popup__svg {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.popup__svg svg {
+    width: 150px;
+    height: 150px;
+}
+
+.popup__text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.popup__btn {
+    text-align: center;
+    margin-top: 70px;
+}

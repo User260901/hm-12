@@ -106,7 +106,11 @@ window.onload = function() {
 
     console.log("hello!")
     console.log("hello 2!")
+<<<<<<< HEAD
     console.log("hello from dev2")
+=======
+    console.log("hellow from dev1")
+>>>>>>> cc1357ae90163892a01cc14db0b0fbb1cbd56bf9
 
 }
 

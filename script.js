@@ -106,6 +106,7 @@ window.onload = function() {
 
     console.log("hello!")
     console.log("hello 2!")
+    console.log("hello from dev2")
 
 }
 
